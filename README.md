@@ -1,6 +1,6 @@
 <h1>Projects</h1>
 This repository is made to store all my projects at one place. 
-I have used/tried out/learned the following technologies and programming languages:
+I have used/tried out/learned the following technologies and programming languages: <br>
 - Java
 - Python
 - C++ (Basics)
@@ -11,4 +11,3 @@ I have used/tried out/learned the following technologies and programming languag
 - Ruby on Rails
 - Bootstrap
 - Linux
-- etc.. but don't have any projects
