@@ -11,7 +11,7 @@ still under construction, because of some improvable design and the lack of resp
 <h3 align="left">Link: <img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto">https://team-at-flask-camera-app-master-gy7rksaagq-ew.a.run.app/<img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto"></h3>  
 <hr>
 <img src="https://miro.medium.com/max/1024/1*9HanDsRU11ZMsgDGJwN96w.png" height="100px" width="auto" style="margin-left:50px">
-<h3>Link: https://andrastarlos.github.io/DorkaSzlany/</h3>
+<h3>Link: <img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto">https://andrastarlos.github.io/DorkaSzlany/<img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto"></h3>
 <h3 align="left">Link: <img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto">www.zsarnovszky-termekek.hu<img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto"></h3>
 <hr>
 <img src="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/01/html5-css3.jpg?resize=498%2C249&ssl=1" height="100px" width="auto">
