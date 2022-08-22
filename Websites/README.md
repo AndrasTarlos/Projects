@@ -14,15 +14,16 @@ to the server every 2 seconds via Javascript sockets. The idea is that the serve
 <hr>
 <img src="https://miro.medium.com/max/1024/1*9HanDsRU11ZMsgDGJwN96w.png" height="100px" width="auto" style="margin-left:50px">
 <h3>Link: <img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto">https://andrastarlos.github.io/DorkaSzlany/<img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto"></h3>
-<h4>Here will come some text</h4>
+<h4>A birthday gift I made for a close friend. This is only a birthday website, but in the next month it's going to be a place where
+she can present her projects with the purpose of applying to a university.</h4>
 <h3 align="left">Link: <img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto">www.zsarnovszky-termekek.hu<img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto"></h3>
-<h4>Here will come some text</h4>
+<h4>I have been assigned to design, code and create a website for a little jam producer in Hungary. It will display all his products, contact info and story of his little business.</h4>
 <hr>
 <img src="https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/01/html5-css3.jpg?resize=498%2C249&ssl=1" height="100px" width="auto">
 <h3>Link: https://angoltabor.net/</h3>
 <h4>Here will come some text</h4>
 <h3 align="left">Link: <img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto">https://medox36.github.io/<img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto"></h3>
-<h4>Here will come some text</h4>
+<h4>This website was made with the lead and help of medox36 (see in Github) my classmate. The larger portion of the code belongs to him (around 60%) and I wrote the rest of it. The Github webpage was made and hosted for a school project.</h4>
 <hr>
 
 <h3 align="left"><img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto"> = Under construction</h3> 
