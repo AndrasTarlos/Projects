@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+    <link rel="stylesheet" href="../style/article.css"/>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <script type="text/javascript" src="../js/main.js"></script>
+    <title>Hottingen Times</title>
+</head>
+<body>
+<div id="root">
+    <div class="pageholder">
+        <div class="header">
+            <div class="header_main">
+                <div class="header_left">
+                    <div class="dropdown">
+                        <button onclick=myFunction() class="dropbtn" title="Menü">
+                            <svg viewBox="0 0 48 48" class="icon--menu svg-icon svg-fill" style="width:48px;height:48px;">
+                                <path fill="#000000" stroke="none" d="M16 18h16v1H16zm0 5h16v1H16zm0 5h16v1H16z"></path>
+                            </svg>
+                        </button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="../index.html">Startseite</a>
+                            <a href="../topics/fortschritt.html">Fortschritt</a>
+                            <a href="../topics/boerse.html">Börse</a>
+                            <a href="../topics/finanzen.html">Finanzen</a>
+                            <a href="../topics/unternehmen.html">Unternehmen</a>
+                            <a href="../topics/unternehmensbereiche.html">Unternehmensbereiche</a>
+                            <a href="../impressum.html">Impressum</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_logo">
+                    <a href="../index.html" title="Zurück zur Startseite">
+                        <img src="../images/logo_klein.png" alt="Hottingen-Times Logo">
+                    </a>
+                </div>
+                <div class="header_right"></div>
+            </div>
+        </div>
+        <div class="progress_part" id="progress_part">
+            <div class="progress_container">
+                <div class="progress_bar" id="progressBar"></div>
+            </div>
+        </div>
+        <div class="toStartPage_wrapper">
+            <div class="toStartPage">
+                <a id="toStartPage" href="../index.html">Startseite</a>
+            </div>
+        </div>
+        <div class="article">
+            <div class="headline">
+                <div class="title">
+                    <div id="title">
+                        <h1 id="title_h1">Geschichte von IBM</h1>
+                    </div>
+                </div>
+                <div class="abstract">
+                    <div id="abstract">
+                        <p>Die Gründung, der Geburtsort und die Entwicklung in der Geschichte von IBM – kurz zusammengefasst.</p>
+                    </div>
+                    <div class="separator"></div>
+                    <div class="big_seperator">
+
+                    </div>
+                    <div class="author">
+                        <span>Tarlos Andras</span>
+                    </div>
+                    <div class="date">
+                        <span>01.12.2021</span>
+                    </div>
+                </div>
+            </div>
+            <div class="article_text">
+                <div id="text_container">
+                    <p>Der als «Big Blue» genannter Computerhersteller gibt es bereits seit mehr als 100 Jahren. Damit ist IBM das älteste IT-Unternehmen der Welt. International Business Machines wurde am 16. Juni 1911 New York gegründet; damals als International Time Recording Company bekannt. Die zwei Unternehmen ITRC und Computing Scale Corporation mit der Tabulating Machine Company unter dem Namen C-T-R, also Computing Tabulating and Recording Company fusioniert. Die C-T-R war von Herman Hollerith, ein Unternehmer und Ingenieur, gegründet worden, der die Lochkartensystem erfunden hatte, welches zur Speicherung von Bestanddaten verwendet wurde.</p>
+                    <p>Unter anderem dienten die C-T-R Maschinen zum Zählen von Wahl- und Stimmzetteln. Die Produktion dieser Maschinen stellte IBM - nachdem die Hersteller haftbar gemacht worden waren, da ihre Maschinen nicht alle Stimmen gezählt hatten - ein. Damals beschäftigte das Unternehmen nur ungefähr 1'300 Mitarbeiter. Neben Lochkarten beschäftigte sich die Firma mit kommerzielle Waagen und Uhren. Thomas J. Watson wurde in 1914 als Chef der C-T-R gewählt und leitete das Unternehmen bis 1955, danach ging er in den Ruhestand. Eine spezielle Unternehmenskultur wurde von ihm geprägt und hat grossen Wert auf die Loyalität der Mitarbeiter gelegt. Im Jahr 1924 erfolgte die Umbenennung der Firma zu dem heutigen Namen: «International Business Machines Corporation». Also kurz: «IBM».</p>
+                    <center>
+                        <p>Evolution des IBM-Logos</p>
+                        <img src="../images/evolution_logos.png" alt="IBM Logos">
+                        <div style="height: 1px"></div>
+                        <a href="https://de.wikipedia.org/wiki/IBM#Geschichte" target="_blank">Bildquelle</a>
+                    </center>
+                    <p style="height: 140px"></p>
+                    <p>Quellen</p>
+                    <ul>
+                        <li><a href="https://de.wikipedia.org/wiki/IBM#Geschichte" target="_blank">https://de.wikipedia.org/wiki/IBM#Geschichte</a></li>
+                        <li><a href="https://www.ibm.com/ibm/history/history/decade_1880.html" target="_blank">https://www.ibm.com/ibm/history/history/decade_1880.html</a></li>
+                        <li><a href="https://www.ibm.com/ibm/history/interactive/ibm_history.pdf" target="_blank">https://www.ibm.com/ibm/history/interactive/ibm_history.pdf</a></li>
+                    </ul>
+                    <br><br>
+                </div>
+            </div>
+            <button onclick="toTop()" id="to_top" title="Nach Oben">Nach Oben</button>
+        </div>
+        <footer>
+            <div class="upper-footer">
+                <div class="footer-content">
+                    <h3>Autoren</h3>
+                    <a href="https://github.com/Medox36" target="_blank">Lorenzo Giuntini</a>
+                    <div style="height: 20px"></div>
+                    <a href="https://github.com/JoksimovicM" target="_blank">Marko Joksimovic</a>
+                    <div style="height: 20px"></div>
+                    <a href="https://github.com/AndrasTarlos" target="_blank">Andras Tarlos</a>
+                </div>
+                <div class="footer-content">
+                    <h3>Über uns</h3>
+                    <div style="height: 50px"></div>
+                    <a href="../impressum.html">Impressum</a>
+                </div>
+                <div class="footer-content">
+                    <h3>Kontakt</h3>
+                    <span>
+                        <img src="../images/telephone_icon.png" height="15px" alt="telephone image">
+                        <a href="tel:123-456-789">Telefon: Auf Anfrage</a>
+                    </span>
+                    <div style="height: 20px"></div>
+                    <span>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src="../images/mail_icon.png" alt="Mail Icon2">
+                            Email:
+                            <br>
+                            <a href="mailto: ourcompanie@email.com">ourcompanies@email.com</a>
+                        </p>
+                    </span>
+                    <span>
+                        <address>
+                            <img src="../images/location_icon.png" alt="location image">
+                            <a href="https://www.google.com/maps/place/The+White+House/@38.8971465,-77.0386103,16.39z/data=!4m5!3m4!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf!8m2!3d38.8976763!4d-77.0365298" itemprop="author" target="_blank">
+                                Adresse: White House
+                            </a>
+                        </address>
+                    </span>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <p>© 2021 None of the rights reserved</p>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+    <link rel="stylesheet" href="../style/topic.css"/>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <script type="text/javascript" src="../js/main.js"></script>
+    <title>Hottingen Times</title>
+</head>
+<body>
+<div id="root">
+    <div class="pageholder">
+        <div class="header">
+            <div class="header_main">
+                <div class="header_left">
+                    <div class="dropdown">
+                        <button onclick=myFunction() class="dropbtn" title="Menü">
+                            <svg viewBox="0 0 48 48" class="icon--menu svg-icon svg-fill" style="width:48px;height:48px;">
+                                <path fill="#000000" stroke="none" d="M16 18h16v1H16zm0 5h16v1H16zm0 5h16v1H16z"></path>
+                            </svg>
+                        </button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="../index.html">Startseite</a>
+                            <a href="../topics/boerse.html">Börse</a>
+                            <a href="../topics/finanzen.html">Finanzen</a>
+                            <a href="../topics/unternehmen.html">Unternehmen</a>
+                            <a href="../topics/unternehmensbereiche.html">Unternehmensbereiche</a>
+                            <a href="../impressum.html">Impressum</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_logo">
+                    <a href="../index.html" title="Zurück zur Startseite">
+                        <img src="../images/logo_klein.png" alt="Hottingen-Times Logo">
+                    </a>
+                </div>
+                <div class="header_right"></div>
+            </div>
+        </div>
+        <div class="progress_part" id="progress_part">
+            <div class="progress_container">
+                <div class="progress_bar" id="progressBar"></div>
+            </div>
+        </div>
+        <div class="toStartPage_wrapper">
+            <div class="toStartPage">
+                <a id="toStartPage" href="../index.html">Startseite</a>
+            </div>
+        </div>
+        <div class="topic_container">
+            <div class="title">
+                <div id="title">
+                    <h1 id="title_h1">Fortschritt</h1>
+                </div>
+            </div>
+            <div class="separator"></div>
+            <div class="article_wrapper">
+                <div class="article_image">
+                    <img src="../images/gründung.png" alt="Wörter für eine Gründung">
+                </div>
+                <div><a href="https://blog.startups.ch/ab-welchem-lebensjahr-darf-ein-jungunternehmer-eine-firma-grunden/" target="_blank">Bildquelle</a></div>
+                <div class="article">
+                    <div class="article_title_wrapper">
+                        <h2 class="article_title">Gründung</h2>
+                    </div>
+                    <div class="abstract">
+                        <p>IBM wurde nicht von Grund auf gegründet, sondern war das Ergebnis einer Fusion mehrere Unternehmungen.
+                            Diese Fusion brachte Charles R. Flint zu Stande. Eine der Unternehmungen werden in diesem Artikel noch erwähnt.</p>
+                    </div>
+                    <div class="toArticle">
+                        <a href="../articles/gruendung.html" class="a">Zum Artikel  ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="article_wrapper">
+                <div class="article_image">
+                    <img src="../images/gründer.png" alt="Gründer Charles Ranlett Flint" style="width: 592px">
+                </div>
+                <div><a href="https://en.wikipedia.org/wiki/Charles_Ranlett_Flint" target="_blank">Bildquelle</a></div>
+                <div class="article">
+                    <div class="article_title_wrapper">
+                        <h2 class="article_title">Gründer Charles Ranlett Flint</h2>
+                    </div>
+                    <div class="abstract">
+                        <p>Der Mann der IBM gründete, Charles R. Flint, sein Leben sowie sein Werdegang von Klein auf
+                            in einem kurzen Artikel dargestellt.</p>
+                    </div>
+                    <div class="toArticle">
+                        <a href="../articles/gruender.html" class="a">Zum Artikel  ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="article_wrapper">
+                <div class="article_image">
+                    <img src="../images/geschichte.png" alt="Geschichte">
+                </div>
+                <div><a href="https://phialphatheta.org/nash-history-journal-prize/" target="_blank">Bildquelle</a></div>
+                <div class="article">
+                    <div class="article_title_wrapper">
+                        <h2 class="article_title">Geschichte von IBM</h2>
+                    </div>
+                    <div class="abstract">
+                        <p>Die Gründung, der Geburtsort und die Entwicklung in der Geschichte von IBM – kurz zusammengefasst.</p>
+                    </div>
+                    <div class="toArticle">
+                        <a href="../articles/ibm_geschichte.html" class="a">Zum Artikel  ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="article_wrapper">
+                <div class="article_image">
+                    <img src="../images/erfindungen.png" alt="Idee-Glühbirne">
+                </div>
+                <div><a href="https://www.geo.de/mitmachen/quiz/20180-quiz-quiz-hinter-diesen-erfindungen-stecken-kuriose-geschichten-kennen-sie-sie" target="_blank">Bildquelle</a></div>
+                <div class="article">
+                    <div class="article_title_wrapper">
+                        <h2 class="article_title">Erfindungen</h2>
+                    </div>
+                    <div class="abstract">
+                        <p>Über die Zeit kreierte IBM viele Erfindungen, von denen einige zu grossen Veränderungen in der
+                            Wirtschaft beitrugen. In diesem Artikel werden ein paar solche Erfindungen aufgezählt.</p>
+                    </div>
+                    <div class="toArticle">
+                        <a href="../articles/ibm_erfindungen.html" class="a">Zum Artikel  ></a>
+                    </div>
+                </div>
+            </div>
+            <button onclick="toTop()" id="to_top" title="Nach Oben">Nach Oben</button>
+        </div>
+        <footer>
+            <div class="upper-footer">
+                <div class="footer-content">
+                    <h3>Autoren</h3>
+                    <a href="https://github.com/Medox36" target="_blank">Lorenzo Giuntini</a>
+                    <div style="height: 20px"></div>
+                    <a href="https://github.com/JoksimovicM" target="_blank">Marko Joksimovic</a>
+                    <div style="height: 20px"></div>
+                    <a href="https://github.com/AndrasTarlos" target="_blank">Andras Tarlos</a>
+                </div>
+                <div class="footer-content">
+                    <h3>Über uns</h3>
+                    <div style="height: 50px"></div>
+                    <a href="../impressum.html">Impressum</a>
+                </div>
+                <div class="footer-content">
+                    <h3>Kontakt</h3>
+                    <span>
+                        <img src="../images/telephone_icon.png" height="15px" alt="telephone image">
+                        <a href="tel:123-456-789">Telefon: Auf Anfrage</a>
+                    </span>
+                    <div style="height: 20px"></div>
+                    <span>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src="../images/mail_icon.png" alt="Mail Icon2">
+                            Email:
+                            <br>
+                            <a href="mailto: ourcompanie@email.com">ourcompanies@email.com</a>
+                        </p>
+                    </span>
+                    <span>
+                        <address>
+                            <img src="../images/location_icon.png" alt="location image">
+                            <a href="https://www.google.com/maps/place/The+White+House/@38.8971465,-77.0386103,16.39z/data=!4m5!3m4!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf!8m2!3d38.8976763!4d-77.0365298" itemprop="author" target="_blank">
+                                Adresse: White House
+                            </a>
+                        </address>
+                    </span>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <p>© 2021 None of the rights reserved</p>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+</html>

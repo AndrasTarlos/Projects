@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Diese Webseite wurde für eine IDPA Arbeit erstellt. Unser Ziel war die Unternehmung IBM kurz vorzustellen">
+    <meta name="author" content="Giuntini Lorenzo, Joksimovic Marko und Tarlos Andras">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6"/>
+    <link rel="stylesheet" href="style/style.css"/>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <script type="text/javascript" src="js/main.js"></script>
+    <title>Hottingen Times</title>
+</head>
+<body>
+<div id="root">
+    <div class="pageholder">
+        <div class="header">
+            <div class="header_main">
+                <div class="header_left">
+                    <div class="dropdown">
+                        <button onclick=myFunction() class="dropbtn" title="Menü">
+                            <svg viewBox="0 0 48 48" class="icon--menu svg-icon svg-fill" style="width:48px;height:48px;">
+                                <path fill="#000000" stroke="none" d="M16 18h16v1H16zm0 5h16v1H16zm0 5h16v1H16z"></path>
+                            </svg>
+                        </button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="topics/fortschritt.html">Fortschritt</a>
+                            <a href="topics/boerse.html">Börse</a>
+                            <a href="topics/finanzen.html">Finanzen</a>
+                            <a href="topics/unternehmen.html">Unternehmen</a>
+                            <a href="topics/unternehmensbereiche.html">Unternehmensbereiche</a>
+                            <a href="impressum.html">Impressum</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_logo">
+                    <a href="index.html" title="Zurück zur Startseite">
+                        <img src="images/logo_klein.png" alt="Hottingen-Times Logo">
+                    </a>
+                </div>
+                <div class="header_right"></div>
+            </div>
+        </div>
+        <div class="progress_part" id="progress_part">
+            <div class="progress_container">
+                <div class="progress_bar" id="progressBar"></div>
+            </div>
+        </div>
+        <main>
+            <h1>«The Big Blue»</h1>
+            <h2>International Business Machines</h2>
+            <img class="logo" src="images/ibm_logo.png" width="600px" alt="IBM image">
+            <h2 class="divider">Was ist IBM?</h2>
+            <p>Die Firma IBM is ein börsenkotiertes</p>
+            <p>US-amerikanische IT- und Beratungsunternehmen mit Sitz</p>
+            <p>in Amonk im Bundestaat New York.</p>
+            <h3>Artikel</h3>
+            <a class="image_link" href="topics/fortschritt.html">
+                <div class="container">
+                    <img src="images/fortschritt.png" alt="Fortschritt Bild" class="article_image" width="500px">
+                    <h4 class="fortschritt">Fortschritt</h4>
+                </div>
+            </a>
+            <a class="quelle" href="https://s3.amazonaws.com/pas-wordpress-media/content/uploads/2015/06/howtouseyourbusinessplantotrackyourprogress-e1434501598833.jpg" target="_blank">Bildquelle</a>
+            <br>
+            <a class="image_link" href="topics/boerse.html">
+                <div class="container">
+                    <img src="images/boerse.png" alt="Börse Bild" class="article_image" width="500px">
+                    <h4 class="boerse">Börse</h4>
+                </div>
+            </a>
+            <a class="quelle" href="https://www1.wdr.de/verbraucher/geld/geld-anlegen-boerse100~_v-gseapremiumxl.jpg" target="_blank">Bildquelle</a>
+            <br>
+            <a class="image_link" href="topics/finanzen.html">
+                <div class="container">
+                    <img src="images/finanzen.png" alt="Finanzen Bild" class="article_image" width="500px">
+                    <h4 class="finanzen">Finanzen</h4>
+                </div>
+            </a>
+            <a class="quelle" href="https://www.stockondeals.com/wp-content/uploads/2021/07/Finance1.jpg" target="_blank">Bildquelle</a>
+            <br>
+            <a class="image_link" href="topics/unternehmen.html">
+                <div class="container">
+                    <img src="images/unternehmen.png" alt="Fortschritt Bild" class="article_image" width="500px">
+                    <h4 class="unternehmen">Unternehmen</h4>
+                </div>
+            </a>
+            <a class="quelle" href="https://www.amazeemetrics.com/wp-content/uploads/2019/07/Mutliple-Locations-Google-My-Business-e1563785564817.jpg" target="_blank">Bildquelle</a>
+            <br>
+            <a class="image_link" href="topics/unternehmensbereiche.html">
+                <div class="container">
+                    <img src="images/unternehmensbereiche.png" alt="Fortschritt Bild" class="article_image" width="500px">
+                    <h4 class="unternehmensbereich">Unternehmensbereiche</h4>
+                </div>
+            </a>
+            <a class="quelle" href="https://bigredcloud.com/wp-content/uploads/2016/06/Tthree-ways-your-company-can-benefit-from-collaborating-with-other-companies.jpg" target="_blank">Bildquelle</a>
+            <h2 class="divider">Video zu IBM</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UWQd-NZcb6Y" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- Button muss zu Unterst im main bleiben -->
+            <button onclick="toTop()" id="to_top" title="Nach Oben">Nach Oben</button>
+        </main>
+        <footer>
+            <div class="upper-footer">
+                <div class="footer-content">
+                    <h3>Autoren</h3>
+                    <a href="https://github.com/Medox36" target="_blank">Lorenzo Giuntini</a>
+                    <div style="height: 20px"></div>
+                    <a href="https://github.com/JoksimovicM" target="_blank">Marko Joksimovic</a>
+                    <div style="height: 20px"></div>
+                    <a href="https://github.com/AndrasTarlos" target="_blank">Andras Tarlos</a>
+                </div>
+                <div class="footer-content">
+                    <h3>Über uns</h3>
+                    <div style="height: 50px"></div>
+                    <a href="impressum.html">Impressum</a>
+                </div>
+                <div class="footer-content">
+                    <h3>Kontakt</h3>
+                    <span>
+                        <img src="images/telephone_icon.png" height="15px" alt="telephone image">
+                        <a href="tel:123-456-789">Telefon: Auf Anfrage</a>
+                    </span>
+                    <div style="height: 20px"></div>
+                    <span>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src="images/mail_icon.png" alt="Mail Icon2">
+                            Email:
+                            <br>
+                            <a href="mailto: ourcompanie@email.com">ourcompanies@email.com</a>
+                        </p>
+                    </span>
+                    <span>
+                        <address>
+                            <img src="images/location_icon.png" alt="location image">
+                            <a href="https://www.google.com/maps/place/The+White+House/@38.8971465,-77.0386103,16.39z/data=!4m5!3m4!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf!8m2!3d38.8976763!4d-77.0365298" itemprop="author" target="_blank">
+                                Adresse: White House
+                            </a>
+                        </address>
+                    </span>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <p>© 2021 None of the rights reserved</p>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+</html>

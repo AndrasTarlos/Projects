@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+    <link rel="stylesheet" href="../style/topic.css"/>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <script type="text/javascript" src="../js/main.js"></script>
+    <title>Hottingen Times</title>
+</head>
+<body>
+<div id="root">
+    <div class="pageholder">
+        <div class="header">
+            <div class="header_main">
+                <div class="header_left">
+                    <div class="dropdown">
+                        <button onclick=myFunction() class="dropbtn" title="Menü">
+                            <svg viewBox="0 0 48 48" class="icon--menu svg-icon svg-fill" style="width:48px;height:48px;">
+                                <path fill="#000000" stroke="none" d="M16 18h16v1H16zm0 5h16v1H16zm0 5h16v1H16z"></path>
+                            </svg>
+                        </button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="../index.html">Startseite</a>
+                            <a href="../topics/fortschritt.html">Fortschritt</a>
+                            <a href="../topics/boerse.html">Börse</a>
+                            <a href="../topics/unternehmen.html">Unternehmen</a>
+                            <a href="../topics/unternehmensbereiche.html">Unternehmensbereiche</a>
+                            <a href="../impressum.html">Impressum</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_logo">
+                    <a href="../index.html" title="Zurück zur Startseite">
+                        <img src="../images/logo_klein.png" alt="Hottingen-Times Logo">
+                    </a>
+                </div>
+                <div class="header_right"></div>
+            </div>
+        </div>
+        <div class="progress_part" id="progress_part">
+            <div class="progress_container">
+                <div class="progress_bar" id="progressBar"></div>
+            </div>
+        </div>
+        <div class="toStartPage_wrapper">
+            <div class="toStartPage">
+                <a id="toStartPage" href="../index.html">Startseite</a>
+            </div>
+        </div>
+        <div class="topic_container">
+            <div class="title">
+                <div id="title">
+                    <h1 id="title_h1">Finanzen</h1>
+                </div>
+            </div>
+            <div class="separator"></div>
+            <div class="article_wrapper">
+                <div class="article_image">
+                    <img src="../images/verlust.png" alt="Geldverlust">
+                </div>
+                <div><a href="https://binantrader.com/de/unbestandiger-verlust-erklart-0513554" target="_blank">Bildquelle</a></div>
+                <div class="article">
+                    <div class="article_title_wrapper">
+                        <h2 class="article_title">1980er 8 Milliarden Verlust</h2>
+                    </div>
+                    <div class="abstract">
+                        <p>Während den 1980er Jahren IBM einen ihrer grössten Verluste innerhalb eines Quartals.
+                            Doch Louis Gerstner gelang es trotz dessen die Unternehmung wieder auf Kurs zu bringen.
+                            Wie er es getan hat, sehen Sie im Artikel.</p>
+                    </div>
+                    <div class="toArticle">
+                        <a href="../articles/acht_billionen_verlust.html" class="a">Zum Artikel  ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="article_wrapper">
+                <div class="article_image">
+                    <img src="../images/finanzielle_lage.png" alt="Finanzielle Lage mit Kompass">
+                </div>
+                <div><a href="https://www.thuenen.de/de/bw/arbeitsbereiche/wirtschaftliche-lage-und-faktoreinsatz/" target="_blank">Bildquelle</a></div>
+                <div class="article">
+                    <div class="article_title_wrapper">
+                        <h2 class="article_title">Finanzielle Lage</h2>
+                    </div>
+                    <div class="abstract">
+                        <p>Dieser Artikel gibt Ihnen einen Einblick in die finanzielle Lage der Unternehmung IBM. Er umfasst Zahlenwerte
+                            wie den Nettoertrag, die Anzahl beschäftigter Mitarbeiter, aber auch Schulden der IBM.</p>
+                    </div>
+                    <div class="toArticle">
+                        <a href="../articles/ibm_finanzielle_lage.html" class="a">Zum Artikel  ></a>
+                    </div>
+                </div>
+            </div>
+            <button onclick="toTop()" id="to_top" title="Nach Oben">Nach Oben</button>
+        </div>
+        <footer>
+            <div class="upper-footer">
+                <div class="footer-content">
+                    <h3>Autoren</h3>
+                    <a href="https://github.com/Medox36" target="_blank">Lorenzo Giuntini</a>
+                    <div style="height: 20px"></div>
+                    <a href="https://github.com/JoksimovicM" target="_blank">Marko Joksimovic</a>
+                    <div style="height: 20px"></div>
+                    <a href="https://github.com/AndrasTarlos" target="_blank">Andras Tarlos</a>
+                </div>
+                <div class="footer-content">
+                    <h3>Über uns</h3>
+                    <div style="height: 50px"></div>
+                    <a href="../impressum.html">Impressum</a>
+                </div>
+                <div class="footer-content">
+                    <h3>Kontakt</h3>
+                    <span>
+                        <img src="../images/telephone_icon.png" height="15px" alt="telephone image">
+                        <a href="tel:123-456-789">Telefon: Auf Anfrage</a>
+                    </span>
+                    <div style="height: 20px"></div>
+                    <span>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <img src="../images/mail_icon.png" alt="Mail Icon2">
+                            Email:
+                            <br>
+                            <a href="mailto: ourcompanie@email.com">ourcompanies@email.com</a>
+                        </p>
+                    </span>
+                    <span>
+                        <address>
+                            <img src="../images/location_icon.png" alt="location image">
+                            <a href="https://www.google.com/maps/place/The+White+House/@38.8971465,-77.0386103,16.39z/data=!4m5!3m4!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf!8m2!3d38.8976763!4d-77.0365298" itemprop="author" target="_blank">
+                                Adresse: White House
+                            </a>
+                        </address>
+                    </span>
+                </div>
+            </div>
+            <div class="bottom-footer">
+                <p>© 2021 None of the rights reserved</p>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
