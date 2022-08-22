@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Face Detector</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.0/socket.io.js'></script>
+</head>
+
+<body>
+    <h1>Camera App</h1>
+    <div class="controller">
+        <button id="on_off">Off</button>
+    </div>
+    <div id="camera" style="width:100%;height:100vh;">
+        <video id="video">Video stream not available.</video>
+    </div>
+    <canvas id="canvas">
+    </canvas>
+
+    <script>
+        var width = 720;
+        var height = 0;
+        var streaming = false;
+        var canvas = null;
+
+        function startup() {
+            video = document.getElementById('video');
+            on_off = document.getElementById("on_off");
+            canvas = document.getElementById('canvas');
+
+            navigator.mediaDevices.getUserMedia({video: true, audio: false})
+            .then(function(stream) {
+              video.srcObject = stream;
+              video.play();
+            })
+            .catch(function(err) {
+              console.log("An error occurred: " + err);
+            });
+        }
+
+        var socket = io.connect("http://127.0.0.1:5000");
+        socket.on('connect', function(){
+            console.log("Connection established")
+        });
+
+        video.addEventListener('canplay', function(ev){
+              if (!streaming) {
+                height = video.videoHeight / (video.videoWidth/width);
+
+                if (isNaN(height)) {
+                  height = width / (4/3);
+                }
+
+                video.setAttribute('width', width);
+                video.setAttribute('height', height);
+                canvas.setAttribute('width', width);
+                canvas.setAttribute('height', height);
+                streaming = true;
+              }
+        }, false);
+
+        async function sendFrame() {
+            var context = canvas.getContext('2d');
+            canvas.width = width;
+            canvas.height = height;
+            context.drawImage(video, 0, 0, width, height);
+            const data = canvas.toDataURL('image/png');
+            socket.emit("receive_frame", data);
+        }
+
+        let timer = null, interval = 2000;
+
+        on_off.addEventListener("click", function() {
+            if (on_off.innerHTML === "Off") {
+                on_off.innerHTML = "On"
+                if (timer !== null) return;
+                    timer = setInterval(function() {
+                        sendFrame()
+                    }, interval);
+                } else {
+                    on_off.innerHTML = "Off"
+                    clearInterval(timer);
+                    timer = null
+                }
+            }
+        );
+
+        // Wait for face coordinates
+        socket.on('receive_face_coordinates', function(face_coordinates){
+            console.log("Coordinates received" + face_coordinates)
+        });
+
+
+          // Set up our event listener to run the startup process
+          // once loading is complete.
+          window.addEventListener('load', startup, false);
+    </script>
+</body>
+
+</html>

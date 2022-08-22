@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "@types/jest": "^23.3.12"
+  },
+  "scripts": {
+    "test": "../../node_modules/.bin/jest"
+  },
+  "dependencies": {
+    "socket.io": "^4.5.0",
+    "socket.io-client": "^4.5.0"
+  },
+  "type": "module"
+}
