@@ -4,7 +4,8 @@
 <h3>Link: https://friendswithrails.herokuapp.com/</h3>
 <h3>Link: https://team-at-flask-camera-app-master-gy7rksaagq-ew.a.run.app/</h3>
 <h3>Link: https://andrastarlos.github.io/DorkaSzlany/</h3>
-<h3>Link: https://angoltabor.net/</h3>
-<h3>Link: https://angoltabor.net/</h3>
+<h3>Link: www.zsarnovszky-termekek.hu</h3>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" height="100px" width="auto">
+<h3>Link: https://angoltabor.net/</h3>
+<h3>Link: https://medox36.github.io/</h3>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1200px-Flask_logo.svg.png" height="100px" width="auto">
