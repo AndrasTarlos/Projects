@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boldog Szülinapot!</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1930/1930660.png">
+    <link rel="stylesheet" href="css/balloon.css">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+    ></script>
+    <script src="js/balloon.js"></script>
+    <!--
+    <script>
+        $(function(){
+            $("#header").load("_header.html");
+            $("#footer").load("_footer.html");
+        });
+    </script>
+    -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        .splash {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: black;
+            z-index: 200;
+            color: white;
+            text-align: center;
+            line-height: 90vh;
+        }
+
+        .splash.display-none {
+            position: fixed;
+            opacity: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: black;
+            z-index: -10;
+            color: white;
+            text-align: center;
+            line-height: 90vh;
+            transition: all 0.5s;
+        }
+        
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fade-in {
+            padding-top: 20%;
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!--<div id="header"></div>-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand text-white" href="#">My Projects</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">Motivation<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Curriculum Vitae</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="splash">
+        <h1 class="fade-in">Szia Dorka!</h1>
+    </div>
+
+    <div id="balloon-container" style="height: 150vh">
+        <div class="jumbotron" style="height: 50vh;width: 70vw">
+            <div class="container">
+                <h1 class="display-4">Boldog 18. Születésnapot!</h1>
+                <p class="lead">Sose engedd el Jézus kezét! Hihetetlenül gratulálok és legyen egy örömteljes életed Istennel! Minden legyen az Ő terve szerint.
+                Arra gondoltam, hogy szülinapod alkalmából egy weboldalt készitenék neked és amikor eljön az idő, akkor az egyetemi jelentkezéseidnél
+                megadhatod ennek a weboldalnak a linkjét (Ne aggódj, jobb lesz ennél a linknél :D ). Boldog Szülinapot!</p>
+
+            </div>
+        </div>
+        <img src="images/Dorka.jpg" alt="Dorka kép" style="height: 50vh;width: auto">
+        <img src="images/bible.jpg" alt="Biblia kép" style="height: 55vh;width: auto">
+        <div class="jumbotron" style="height: 55vh;width: 67.5vw">
+            <div class="container">
+                <h1 class="display-4">23. Zsoltár</h1>
+                <p class="lead">“Az Úr az én pásztorom, nem szűkölködöm.
+                    Füves legelőkön terelget, csendes vizekhez vezet engem.
+                    Lelkemet megvidámítja, az igazság ösvényein vezet engem az Ő nevéért.
+                    Még ha a halál árnyékának völgyében járok is, nem félek semmi bajtól,
+                    mert Te velem vagy; vessződ és botod megvigasztal engem.
+                    Asztalt terítesz nekem ellenségeim szeme láttára.
+                    Megkened fejemet olajjal, csordultig van poharam.
+                    Bizony, jóságod és szereteted kísér életem minden napján,
+                    s az Úr házában lakom egész életemben.”</p>
+
+            </div>
+        </div>
+    </div>
+    <!--<footer id="footer"></footer>-->
+    <footer>
+        <div class="container my-5">
+            <footer
+                    class="text-center text-lg-start text-white"
+                    style="background-color: #3e4551"
+            >
+                <div class="container p-4 pb-0">
+                    <section class="">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-4 col-md-6 mb-4 mb-md-0 ">
+                                <h5 class="text-uppercase">FOOTER CONTENT</h5>
+
+                                <p>
+                                    Ide majd azt írhatsz amit csak szeretnél! Szerintem az egyetemeknek
+                                    majd tetszene ha úgy hirdetnéd meg magadat, hogy egy weboldalon
+                                    bemutatod a projektjeidet és a tudásodat. Nem muszáj ezt csinálni, de
+                                    szerintem elég klafára sikerülhet :DDDD
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <hr class="mb-4" />
+
+                    <!-- Section: Social media -->
+                    <section class="mb-4 text-center">
+                        <!-- Facebook -->
+                        <a
+                                class="btn btn-outline-light btn-floating m-1"
+                                href="#!"
+                                role="button"
+                        ><i class="bi bi-facebook"></i
+                        ></a>
+
+                        <!-- Google -->
+                        <a
+                                class="btn btn-outline-light btn-floating m-1"
+                                href="#!"
+                                role="button"
+                        ><i class="fab fa-google"></i
+                        ></a>
+
+                        <!-- Instagram -->
+                        <a
+                                class="btn btn-outline-light btn-floating m-1"
+                                href="#!"
+                                role="button"
+                        ><i class="fab fa-instagram"></i
+                        ></a>
+
+                        <!-- Linkedin -->
+                        <a
+                                class="btn btn-outline-light btn-floating m-1"
+                                href="#!"
+                                role="button"
+                        ><i class="fab fa-linkedin-in"></i
+                        ></a>
+
+                        <!-- Github -->
+                        <a
+                                class="btn btn-outline-light btn-floating m-1"
+                                href="#!"
+                                role="button"
+                        ><i class="fab fa-github"></i
+                        ></a>
+                    </section>
+                    <!-- Section: Social media -->
+                </div>
+                <div
+                        class="text-center p-3"
+                        style="background-color: rgba(0, 0, 0, 0.2)"
+                >
+                    © 2022 Copyright:
+                    <a class="text-white" href="https://github.com/AndrasTarlos"
+                    >itguy</a
+                    >
+                </div>
+            </footer>
+        </div>
+    </footer>
+
+    <script>
+        const splash = document.querySelector(".splash")
+
+        document.addEventListener("DOMContentLoaded", (e)=> {
+            setTimeout(()=>{
+                splash.classList.add("display-none")
+            }, 2000)
+        })
+    </script>
+</body>
+</html>
