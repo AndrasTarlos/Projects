@@ -1,0 +1,98 @@
+[ {
+  "name" : "Our company",
+  "departments" : [ {
+    "name" : "Office",
+    "members" : [ {
+      "firstName" : "Valentin",
+      "lastName" : "Adrianus",
+      "participation" : {
+        "function" : {
+          "designation" : "Secretary"
+        },
+        "team" : {
+          "designation" : "Desk Champions"
+        }
+      },
+      "departmentName" : "Office",
+      "modus" : 0,
+      "pwd" : null
+    } ]
+  }, {
+    "name" : "IT",
+    "members" : [ {
+      "firstName" : "Xose",
+      "lastName" : "Tushar",
+      "participation" : {
+        "function" : {
+          "designation" : "Programmer"
+        },
+        "team" : {
+          "designation" : "Boss Mode"
+        }
+      },
+      "departmentName" : "IT",
+      "modus" : 0,
+      "pwd" : null
+    }, {
+      "firstName" : "Stef",
+      "lastName" : "Regulo",
+      "participation" : {
+        "function" : {
+          "designation" : "Programmer"
+        },
+        "team" : {
+          "designation" : "The Water Coolers"
+        }
+      },
+      "departmentName" : "IT",
+      "modus" : 0,
+      "pwd" : null
+    } ]
+  }, {
+    "name" : "Management",
+    "members" : [ {
+      "firstName" : "Modred",
+      "lastName" : "Leander",
+      "participation" : {
+        "function" : {
+          "designation" : "Marketing"
+        },
+        "team" : {
+          "designation" : "Never Overtime"
+        }
+      },
+      "departmentName" : "Management",
+      "modus" : 0,
+      "pwd" : "secretkitty"
+    }, {
+      "firstName" : "John",
+      "lastName" : "Dasoda-hae",
+      "participation" : {
+        "function" : {
+          "designation" : "Secretary"
+        },
+        "team" : {
+          "designation" : "Office Heroes"
+        }
+      },
+      "departmentName" : "Management",
+      "modus" : 1,
+      "pwd" : "secretpasswd"
+    }, {
+      "firstName" : "admin",
+      "lastName" : "admin",
+      "participation" : {
+        "function" : {
+          "designation" : "Admin"
+        },
+        "team" : {
+          "designation" : "Never Overtime"
+        }
+      },
+      "departmentName" : "Management",
+      "modus" : 2,
+      "pwd" : "admin"
+    } ]
+  } ],
+  "companyName" : "Our company"
+} ]

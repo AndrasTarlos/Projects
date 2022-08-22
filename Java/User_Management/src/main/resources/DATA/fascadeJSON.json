@@ -1,0 +1,47 @@
+[
+  {
+    "teams": [
+      {
+        "designation": "The Water Coolers"
+      },
+      {
+        "designation": "Boss Mode"
+      },
+      {
+        "designation": "The Scanners"
+      },
+      {
+        "designation": "Never Overtime"
+      },
+      {
+        "designation": "Office Heroes"
+      },
+      {
+        "designation": "Desk Champions"
+      }
+    ],
+    "jobFunctions": [
+      {
+        "designation": "Admin"
+      },
+      {
+        "designation": "Secretary"
+      },
+      {
+        "designation": "Receptionist"
+      },
+      {
+        "designation": "Marketing"
+      },
+      {
+        "designation": "Public relations"
+      },
+      {
+        "designation": "Secretary"
+      },
+      {
+        "designation": "Programmer"
+      }
+    ]
+  }
+]
