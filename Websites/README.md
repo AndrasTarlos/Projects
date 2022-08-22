@@ -9,7 +9,8 @@ still under construction, because of some improvable design and the lack of resp
 <hr>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1200px-Flask_logo.svg.png" height="100px" width="auto">
 <h3 align="left">Link: <img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto">https://team-at-flask-camera-app-master-gy7rksaagq-ew.a.run.app/<img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto"></h3>
-<h4>Here will come some text</h4>
+<h4>This project was pushed with the help of Zeet. I used Flask with Python in the backend to process the image that is sent from the client
+to the server every 2 seconds via Javascript sockets. The idea is that the server sends the image back to the client with a rectangle drawn around the users face on it. This feature doesn't work yet because of the bug, even though the client and the server can communicate.</h4>
 <hr>
 <img src="https://miro.medium.com/max/1024/1*9HanDsRU11ZMsgDGJwN96w.png" height="100px" width="auto" style="margin-left:50px">
 <h3>Link: <img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto">https://andrastarlos.github.io/DorkaSzlany/<img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto"></h3>
