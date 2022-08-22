@@ -8,4 +8,4 @@
 <h3>Link: www.zsarnovszky-termekek.hu</h3>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" height="100px" width="auto">
 <h3>Link: https://angoltabor.net/</h3>
-<h3 align="left">Link: <img src="https://media.istockphoto.com/vectors/setting-gear-tool-cog-isolated-flat-web-mobile-icon-vector-sign-vector-id1033918582?k=20&m=1033918582&s=612x612&w=0&h=0g_XReAQvpHi94ubSo_VmxG9iWltT3LnpJl4wWhR02g=" height="30px" width="auto">https://medox36.github.io/</h3>
+<h3 align="left">Link: <img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto">https://medox36.github.io/</h3>
