@@ -24,6 +24,8 @@ she can present her projects with the purpose of applying to a university.</h4>
 <h4>I have been asked to make a basic website for a Hungarian English-camp.</h4>
 <h3 align="left">Link: https://medox36.github.io/</h3>
 <h4>This website was made with the lead and help of medox36 (see in Github) my classmate. The larger portion of the code belongs to him (around 60%) and I wrote the rest of it. The Github webpage was made and hosted for a school project.</h4>
+<h3>Link: https://andrastarlos.github.io/Project_Agi</h3>
+<h4>My first HTML Webpage I made (not finished). Two years ago I tried to rebuild my uncles website with my knowledge back then. I couldn't finish it...</h4>
 <hr>
 
 <h3 align="left"><img src="https://www.femto-st.fr/sites/default/files/styles/full_width/public/articles/docs/mechanical-gears-.png?itok=yaD3oP3R" height="30px" width="auto"> = Under construction</h3> 
