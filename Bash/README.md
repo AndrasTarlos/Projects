@@ -9,6 +9,6 @@
 <ul>
   <li>1. Open a Shell</li>
   <li>2. Download the script with: "wget https://github.com/AndrasTarlos/Projects/blob/main/Bash/Unitzip/unitzip.sh"</li>
-  <li>3. If the script doesn't have 'x' (execute) permissions, type: chmod 777 unitzip.sh</li>
+  <li>3. If the script doesn't have 'x' (execute) permissions, type: "chmod 777 unitzip.sh"</li>
   <li>4. Type: "./unitzip.sh --help" for help</li>
 </ul>
