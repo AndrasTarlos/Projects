@@ -6,9 +6,9 @@
 <h2>United Zip</h2>
 <h3>The main objective in this script was to build a united zipping and unzipping tool that has all the following compressing programs in it: gzip, zip, bzip2 and xz.</h3>
 <h3>Follow these steps to use this tool:</h3>
-<li>
-  <ul>1. Open a Shell</ul>
-  <ul>2. Download the script with: "wget https://github.com/AndrasTarlos/Projects/blob/main/Bash/Unitzip/unitzip.sh"</ul>
-  <ul>3. If the script doesn't have 'x' (execute) permissions, type: chmod 777 unitzip.sh</ul>
-  <ul>4. Type: "./unitzip.sh --help" for help</ul>
-</li>
+<ul>
+  <li>1. Open a Shell</li>
+  <li>2. Download the script with: "wget https://github.com/AndrasTarlos/Projects/blob/main/Bash/Unitzip/unitzip.sh"</li>
+  <li>3. If the script doesn't have 'x' (execute) permissions, type: chmod 777 unitzip.sh</li>
+  <li>4. Type: "./unitzip.sh --help" for help</li>
+</ul>
